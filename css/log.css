@@ -1,0 +1,65 @@
+.history-right-column{
+    background-color:#fff;
+    height:640px;
+    padding:0px 20px !important;
+}
+.history-right-column .list-group-item{
+    padding:15px 0px;
+    font-size:20px;
+}
+.history-right-column .list-group-item>span{
+    padding-right:20px;
+}
+.history-right-column .list-group-item.active{
+    color:#fff !important;
+    border-color:#bf4cbf;
+    background-color:#bf40bf;
+}
+.card .card-horizontal .card-icon .fa-play{
+    position:absolute;
+    right:45%;
+    top:41%;
+}
+time{
+    padding:0px 2px;
+}
+.card .card-icon .fa-times{
+    position:absolute;
+    right:10px;
+    top:10px;
+    cursor:pointer;
+    color:#2c3131c7;
+}
+.card .card-body p{
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    margin-bottom:0;
+}
+.card .card-body{
+    min-width:0;
+    padding-top:10px;
+    padding-bottom:0;
+}
+@media(max-width:767px){
+.card .card-icon img{
+    width:100%;
+ }
+ .card{
+     margin-top:30px;
+ }
+ }
+ @media(min-width:992px)and (max-width:1199px){
+     .card .card-body .channel-img{
+         display:block;
+     }
+     .card .card-body .channel-img>img{
+         margin-right:0 !important;
+     }
+     h4{
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;  
+    }
+ }
